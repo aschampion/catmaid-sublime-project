@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": false,
+			"path": ".",
+			"folder_exclude_patterns": ["django/static", "node_modules"]
+		}
+	],
+	"ternjs": {
+        "exclude": [".git/**", "django/static/**", "node_modules/**"]
+    }
+}
